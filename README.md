@@ -1,9 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=Aayush%20Satam&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineer%20%7C%20Mumbai&descAlignY=58&descSize=16" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2C5364&center=true&vCenter=true&width=650&lines=Computer+Engineering+Student;Software+%7C+AI+%7C+Cloud;Hackathon+Participant+%26+IoT+Builder;Open+to+internships+and+collaboration" alt="Typing animation" />
-
+<img src="https://raw.githubusercontent.com/aayushsatam/aayushsatam/main/header.svg" width="100%" alt="Aayush Satam" />
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayush-satam-4b2631339/)
