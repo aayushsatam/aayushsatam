@@ -1,0 +1,29 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .name{font:700 52px 'Segoe UI',Arial,sans-serif;fill:#fff;letter-spacing:6px;opacity:0;animation:rise 1s ease-out .3s forwards}
+    .role{font:400 20px 'Segoe UI',Arial,sans-serif;fill:#94a3b8;letter-spacing:6px;opacity:0;animation:rise 1s ease-out 1s forwards}
+    .line{stroke:#38bdf8;stroke-width:3;stroke-dasharray:150;stroke-dashoffset:150;animation:draw 1.2s ease-out 1.6s forwards}
+    .tag{font:400 15px 'Segoe UI',Arial,sans-serif;fill:#38bdf8;opacity:0;animation:rise 1s ease-out 2.2s forwards}
+    .dot{fill:#38bdf8;opacity:.45;animation:float 6s ease-in-out infinite}
+    .d2{fill:#a78bfa;animation-delay:1.5s}
+    .d3{animation-delay:3s}
+    @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+  </style>
+  <rect width="900" height="220" rx="16" fill="url(#bg)"/>
+  <circle class="dot" cx="90" cy="55" r="5"/>
+  <circle class="dot d2" cx="810" cy="70" r="6"/>
+  <circle class="dot d3" cx="150" cy="175" r="4"/>
+  <circle class="dot d2" cx="760" cy="170" r="4"/>
+  <text class="name" x="450" y="100" text-anchor="middle">AAYUSH SATAM</text>
+  <text class="role" x="450" y="140" text-anchor="middle">COMPUTER ENGINEER</text>
+  <line class="line" x1="375" y1="162" x2="525" y2="162"/>
+  <text class="tag" x="450" y="195" text-anchor="middle">Software  •  AI  •  Cloud</text>
+</svg>
